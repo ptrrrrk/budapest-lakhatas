@@ -306,7 +306,7 @@ st.download_button(
 # Lábjegyzet
 st.markdown("---")
 st.markdown("*Dashboard készítve Streamlit segítségével | Adatok: Budapest lakáspiaci adatbázis*")
-'''
+
 
 # Fájl mentése
 with open('budapest_lakaspiac_dashboard.py', 'w', encoding='utf-8') as f:
