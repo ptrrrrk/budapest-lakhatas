@@ -23,7 +23,7 @@ st.markdown("---")
 @st.cache_data
 def load_data():
     # Itt a feltöltött CSV fájlt kell beolvasni
-    df = pd.read_csv('budapest_lakaspiac_osszefuzve.csv')
+    df = pd.read_csv(budapest_lakaspiac_osszefuzve.csv)
     
     # Oszlopnevek tisztítása
     df.columns = df.columns.str.strip()
